@@ -3,7 +3,8 @@
         "target": "ES5",
         "noImplicitAny": true,
         "outDir": "built",
-        "rootDir": "."
+        "rootDir": ".",
+        "lib": ["ES2015"]
     },
     "exclude": ["pxt_modules/**/*test.ts"]
 }
