@@ -88,9 +88,9 @@ const onButtonAPressed = () => {
 };
 
 const onButtonBPressed = () => {
-    console.log("Button B pressed")
+    console.log("Button B pressed.")
 
-    currentlyTypingString += "B.";
+    currentlyTypingString += "B";
     checkMatch();
 }
 
