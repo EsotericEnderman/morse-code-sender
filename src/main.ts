@@ -32,6 +32,8 @@ const morseCode = {
     end: "ABAB"
 };
 
+const terminateSequence = "AAAAB";
+
 let stringToSend = "";
 let currentlyTypingString = "";
 
