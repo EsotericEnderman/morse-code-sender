@@ -44,7 +44,19 @@ const getMatch = () => {
         return null
     }
 
-    const letter = invertedMorseCode[currentlyTypingString.slice(0, currentlyTypingString.length - terminateSequence.length)];
+    console.log("-------------------");
+    console.log("Detected termination sequence.")
+    console.log("The currently typed string is: " + currentlyTypingString);
+    
+    const slice = currentlyTypingString.slice(0, currentlyTypingString.length - terminateSequence.length)
+
+    console.log("The slice to check is: " + slice);
+    console.log("-------------------");
+
+    const letter = invertedMorseCode[slice];
+
+    console.log("The letter is: " + letter);
+    console.log("-------------------");
 
     return letter;
 }
@@ -57,6 +69,10 @@ const checkMatch = () => {
     currentlyTypingString = "";
 
     if (match === "end") {
+        console.log("-------------------");
+        console.log("Sending string: " + stringToSend);
+        console.log("-------------------");
+
         radio.sendString(stringToSend);
         stringToSend = "";
     } else {
@@ -65,7 +81,7 @@ const checkMatch = () => {
 }
 
 const onButtonAPressed = () => {
-    console.log("Button A pressed")
+    console.log("Button A pressed.")
 
     currentlyTypingString += "A";
     checkMatch();
@@ -74,7 +90,7 @@ const onButtonAPressed = () => {
 const onButtonBPressed = () => {
     console.log("Button B pressed")
 
-    currentlyTypingString += "B";
+    currentlyTypingString += "B.";
     checkMatch();
 }
 
