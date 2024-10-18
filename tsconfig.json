@@ -1,10 +1,10 @@
 {
-    "compilerOptions": {
-        "target": "ES5",
-        "noImplicitAny": true,
-        "outDir": "built",
-        "rootDir": ".",
-        "lib": ["ES2015"]
-    },
-    "exclude": ["pxt_modules/**/*test.ts"]
+  "compilerOptions": {
+    "target": "ES5",
+    "noImplicitAny": true,
+    "outDir": "built",
+    "rootDir": ".",
+    "lib": ["ES2015"]
+  },
+  "exclude": ["pxt_modules/**/*test.ts"]
 }
