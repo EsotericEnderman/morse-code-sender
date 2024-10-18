@@ -75,6 +75,6 @@ const onButtonBPressed = () => {
 }
 
 input.onButtonPressed(Button.A, onButtonAPressed);
-input.onButtonPressed(Button.A, onButtonBPressed);
+input.onButtonPressed(Button.B, onButtonBPressed);
 
 radio.onReceivedString((receivedString) => basic.showString(receivedString));
