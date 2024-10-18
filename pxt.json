@@ -1,5 +1,5 @@
 {
-    "name": "morse-code-sender",
+    "name": "microbit-morse-code-sender",
     "description": "",
     "dependencies": {
         "core": "*",
