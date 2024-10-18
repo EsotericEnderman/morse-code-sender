@@ -1,6 +1,6 @@
 {
     "name": "microbit-morse-code-sender",
-    "description": "",
+    "description": "A script that allows you to send morse code between two Microbits.",
     "dependencies": {
         "core": "*",
         "radio": "*",
