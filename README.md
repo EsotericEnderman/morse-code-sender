@@ -2,6 +2,8 @@
 
 > A script that allows you to send morse code between two Microbits.
 
+This is no way practical, but it's cool to see that it's at least possible.
+
 > Open this page at [https://EsotericEnderman.github.io/microbit-morse-code-sender/](https://EsotericEnderman.github.io/microbit-morse-code-sender/)
 
 ## Usage
