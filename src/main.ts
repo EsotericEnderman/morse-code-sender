@@ -48,7 +48,7 @@ const getMatch = () => {
     console.log("Detected termination sequence.")
     console.log("The currently typed string is: " + currentlyTypingString);
     
-    const slice = currentlyTypingString.slice(0, currentlyTypingString.length - terminateSequence.length - 1)
+    const slice = currentlyTypingString.slice(0, currentlyTypingString.length - terminateSequence.length)
 
     console.log("The slice to check is: " + slice);
     console.log("-------------------");
