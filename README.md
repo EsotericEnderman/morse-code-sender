@@ -13,7 +13,7 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/EsotericEnderman/microbit-morse-code-sender** and import
 
-## Edit this project
+## Edit This Project
 
 To edit this repository in MakeCode.
 
