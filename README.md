@@ -2,6 +2,8 @@
 
 > A script that allows you to send morse code between two Microbits.
 
+> Open this page at [https://EsotericEnderman.github.io/microbit-morse-code-sender/](https://EsotericEnderman.github.io/microbit-morse-code-sender/)
+
 ## Usage
 
 See the morse code chart below for help:
@@ -13,8 +15,6 @@ See the morse code chart below for help:
 3. Begin by typing out a letter using the **A** and **B** buttons.
 4. When you are done, type the termination sequence **AAAAB**. This will add the letter to what will be sent.
 5. To send the current string, type the *end* character by typing **ABAB**. This will send the string to all other Microbits on the radio frequency.
-
-> Open this page at [https://EsotericEnderman.github.io/microbit-morse-code-sender/](https://EsotericEnderman.github.io/microbit-morse-code-sender/)
 
 ## Use as Extension
 
