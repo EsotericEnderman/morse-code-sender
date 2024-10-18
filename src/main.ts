@@ -58,6 +58,8 @@ const getMatch = () => {
     console.log("The letter is: " + letter);
     console.log("-------------------");
 
+    basic.showString(letter);
+
     return letter;
 }
 
