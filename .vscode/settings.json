@@ -27,9 +27,21 @@
         "**/.pxt": true
     },
     "cSpell.words": [
+        "AAAB",
+        "AABA",
+        "ABAA",
+        "ABBB",
+        "BAAA",
+        "BAAB",
+        "BABB",
+        "BBAA",
+        "BBAB",
         "Enderman",
+        "jekyll",
+        "makecode",
         "microbit",
         "Microbit",
-        "Microbits"
+        "Microbits",
+        "tsprj"
     ]
 }
