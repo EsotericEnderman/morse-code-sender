@@ -1,4 +1,4 @@
-const invertObject = (object: {[key: string]: string}) => {
+function invertObject(object: {[key: string]: string}) {
     const newObject: {[key: string]: string} = {};
 
     for (const key of Object.keys(object)) {
