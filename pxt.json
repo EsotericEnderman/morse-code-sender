@@ -9,7 +9,8 @@
         "src/main.ts",
         "src/utility/invertObject.ts",
         "README.md",
-        "LICENSE.md"
+        "LICENSE.md",
+        "tutorial-info-cache.json"
     ],
     "targetVersions": {
         "target": "7.0.51",
