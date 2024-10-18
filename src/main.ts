@@ -44,13 +44,8 @@ const getMatch = () => {
         return null
     }
 
-    console.log("Currently typing: " + currentlyTypingString);
-    console.log("Slice: " + currentlyTypingString.slice(0, currentlyTypingString.length - terminateSequence.length))
-
     const letter = invertedMorseCode[currentlyTypingString.slice(0, currentlyTypingString.length - terminateSequence.length)];
 
-    console.log("Matched letter: " + letter);
-    
     return letter;
 }
 
