@@ -40,6 +40,10 @@ let currentlyTypingString = "";
 const invertedMorseCode = invertObject(morseCode);
 
 const getMatch = () => {
+    if (currentlyTypingString.indexOf(terminateSequence) === -1) {
+        return null
+    }
+
     const letter = invertedMorseCode[currentlyTypingString];
     
     console.log("Matched letter: " + letter);
